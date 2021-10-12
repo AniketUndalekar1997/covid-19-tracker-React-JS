@@ -13,7 +13,7 @@ function InfoBox({
   ...props
 }) {
   return (
-    <div>
+    
       <Card
         onClick={() => props.onClick()}
         className={`infoBox ${active && "infoBox--selected"} ${
@@ -43,7 +43,7 @@ function InfoBox({
           </Typography>
         </CardContent>
       </Card>
-    </div>
+    
   );
 }
 
